@@ -24,4 +24,3 @@ Note that the following results have never been manually filtered, but completel
 
 ![](./results_1.png)
 ![](./results_2.png)
-![](./results_3.png)
