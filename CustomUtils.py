@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import layers
 import tensorflow.keras.backend as K
-import numpy as np
 
 
 class LayerNormalization(layers.Layer):

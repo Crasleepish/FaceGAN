@@ -6,6 +6,7 @@
 
 import matplotlib.pyplot as plt
 import tensorflow as tf
+from tensorflow.keras import layers
 import datetime
 import pathlib
 import sys
@@ -20,7 +21,7 @@ LR = 1e-4
 N_CRITIC = 1
 EPOCHS = 20
 
-path = "D:\\dev\\datasets\\img_align_celeba"
+path = "./datasets/img_align_celeba"
 files = list(pathlib.Path(path).glob('*'))
 
 
